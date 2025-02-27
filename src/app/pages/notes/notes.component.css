@@ -1,0 +1,22 @@
+#notes-page {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .note-list {
+        background-image: -moz-linear-gradient();
+        border: 10px solid blue;
+        width: 70px;
+        min-width: 450px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
